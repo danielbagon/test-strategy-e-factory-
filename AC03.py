@@ -64,7 +64,7 @@ class Testes(TestCase):
     
     def test_multiplicacao(self):
         calcular = Calculadora()
-        self.assertEqual(calcular.calcular(5, 5, 'multiplicacao'), 50)
+        self.assertEqual(calcular.calcular(5, 9, 'multiplicacao'), 45)
 
         
 
